@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <!-- 适配 MacBook 视网膜屏幕的视口设置 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>朱婕 | 司法会计专业个人主页</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- MacBook 下加载更流畅的字体 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+
+  <!-- Mac 风格的语言切换按钮 -->
+  <div class="lang-switch">
+    <button id="langBtn">English</button>
+  </div>
+
+  <!-- 中文内容 -->
+  <div id="zhContent" class="content-panel active">
+    <header class="profile-header">
+      <div class="avatar mac-avatar"></div>
+      <h1 class="name">朱婕</h1>
+      <p class="subtitle">华东政法大学 | 会计专业复合型人才</p>
+    </header>
+
+    <section class="card">
+      <h2>基本信息</h2>
+      <div class="info-grid">
+        <div class="info-item">
+          <span class="label">学校：</span>
+          <span>华东政法大学</span>
+        </div>
+        <div class="info-item">
+          <span class="label">专业：</span>
+          <span>会计学</span>
+        </div>
+        <div class="info-item">
+          <span class="label">邮箱：</span>
+          <span><a href="mailto:18009436572@163.com">18009436572@163.com</a></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>个人简介</h2>
+      <p class="intro-text">
+        具备扎实的会计专业基础与法学背景，擅长将法律思维融入财务分析与审计工作。熟练掌握财务报表编制、成本核算及税务法规，精通Excel高级功能与Python数据分析，致力于成为“财务+法律”复合型精英，具备极强的职业素养与数据驱动决策能力。
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>核心技能</h2>
+      <div class="skills-tags">
+        <span>财务会计</span>
+        <span>管理会计</span>
+        <span>审计基础</span>
+        <span>税法</span>
+        <span>Excel 高级函数</span>
+        <span>Python 数据分析</span>
+        <span>财务报表分析</span>
+        <span>法律与财务交叉研究</span>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>教育经历</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>华东政法大学</h3>
+            <p>会计学专业 | 本科在读</p>
+            <p>2024.09 - 至今</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- 英文内容 -->
+  <div id="enContent" class="content-panel">
+    <header class="profile-header">
+      <div class="avatar mac-avatar"></div>
+      <h1 class="name">Zhu Jie</h1>
+      <p class="subtitle">ECUPL | Accounting Professional</p>
+    </header>
+
+    <section class="card">
+      <h2>Basic Information</h2>
+      <div class="info-grid">
+        <div class="info-item">
+          <span class="label">University:</span>
+          <span>East China University of Political Science and Law</span>
+        </div>
+        <div class="info-item">
+          <span class="label">Major:</span>
+          <span>Accounting</span>
+        </div>
+        <div class="info-item">
+          <span class="label">Email:</span>
+          <span><a href="mailto:18009436572@163.com">18009436572@163.com</a></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>About Me</h2>
+      <p class="intro-text">
+        A复合型 accounting professional with a solid foundation in law. Proficient in financial reporting, cost accounting, and tax regulations. Skilled in advanced Excel and Python for financial data analysis. Committed to bridging finance and law, with strong analytical skills and a detail-oriented mindset.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Core Skills</h2>
+      <div class="skills-tags">
+        <span>Financial Accounting</span>
+        <span>Management Accounting</span>
+        <span>Audit Basics</span>
+        <span>Taxation</span>
+        <span>Advanced Excel</span>
+        <span>Python Data Analysis</span>
+        <span>Financial Analysis</span>
+        <span>Finance & Law Integration</span>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Education</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>East China University of Political Science and Law</h3>
+            <p>Bachelor of Accounting</p>
+            <p>2024.09 - Present</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer class="mac-footer">
+    Last updated: <span id="updateDate"></span>
+  </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
